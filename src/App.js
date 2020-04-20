@@ -99,6 +99,8 @@ function App() {
       setUserData({...userData, "userID": userID})
       setView(1)
       getRank(userID, siteName)
+    } else {
+      setView(4)
     }
   },[url])
 
