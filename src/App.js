@@ -64,8 +64,9 @@ function App() {
         setView(3)
       })
       .catch((err) => {
+        console.log("in error", err)
+        setError(`${err}`)
         setView(2)
-        setError(err)
       })
     } else if (siteName === "stackoverflow") {
       axios.post("https://ratings-api.dev.reputationaire.com/api/stackoverflow/request-rating", {
@@ -81,8 +82,9 @@ function App() {
         setView(3)
       })
       .catch((err) => {
+        console.log("in error", err)
+        setError(`${err}`)
         setView(2)
-        setError(err)
       })
     } else {
       setView(4)
