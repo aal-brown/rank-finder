@@ -119,7 +119,7 @@ function App() {
         )}
          {view === 2 && (
           <div>
-            <h1>ERROR</h1>
+            <h2>ERROR</h2>
             <section>{error}</section>
           </div>
         )}
@@ -130,7 +130,7 @@ function App() {
           </div>
         )}
         {view === 4 && (
-          <div>Invalid page</div>
+         <h2>Invalid Page</h2>
         )}
       </div>
   );
