@@ -19,7 +19,7 @@
 }
 
 .loading {
-  width: 35%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;  
@@ -27,7 +27,7 @@
 }
 
 .loadingText {
-  font-size: 0.5em;
+  font-size: 1em;
   opacity: 1;
   animation: pulse ease-in-out 1s infinite;
 }
