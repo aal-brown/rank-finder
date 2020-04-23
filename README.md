@@ -1,3 +1,4 @@
+Rank finder is a simple chrome extension that retrieves the ranks for github and stack overflow users when their personal profiles are visisted.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
